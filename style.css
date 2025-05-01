@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #008b8b;
+}
+.navbar {
+  background-color: green;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0.8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.nav-cont {
+  display: flex;
+  gap: 80px;
+  margin-top: 20px;
+  border: 5px solid #338299;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  position: relative;
+  max-width: 90%;
+  overflow: hidden;
+}
